@@ -67,7 +67,8 @@ ad_click_simulator.html
 ## 📄 Final Report
 
 📝 Includes dashboard + analysis (ab_test_dashboard.pdf)
-## 💼 Resume Summary
+
+## Summary
 
 • Built an end-to-end BI solution using SQL, Looker, and Python click tracking  
 • Simulated A/B testing and real-time event tracking in a digital advertising use case  
