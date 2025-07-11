@@ -1,0 +1,5 @@
+campaign_id,advertiser_name,start_date,end_date,budget,target_cpa
+101,Nike,2024-06-01,2024-07-31,10000,3.50
+102,Adidas,2024-06-15,2024-07-15,7000,2.80
+103,Amazon,2024-06-20,2024-07-20,12000,4.00
+104,Google,2024-07-01,2024-07-30,9000,3.00

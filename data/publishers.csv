@@ -1,0 +1,6 @@
+pub_id,ad_id,publisher_name,traffic_source,revenue_generated
+P1,A1,ESPN,sports,120.0
+P2,A2,Forbes,news,110.0
+P3,A3,TechCrunch,tech,90.0
+P4,A4,NYTimes,news,200.0
+P5,A5,Wired,tech,180.0

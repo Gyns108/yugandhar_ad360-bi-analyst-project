@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ad Click Tracker</title>
+</head>
+<body>
+
+  <h1>Test Ad</h1>
+  <button onclick="trackClick('A6')">Click Ad A</button>
+  <button onclick="trackClick('A7')">Click Ad B</button>
+
+  <script>
+    function trackClick(adId) {
+      const clickData = {
+        ad_id: adId,
+        timestamp: new Date().toISOString()
+      };
+
+      console.log("Simulated Click:", clickData);
+
+      // Simulate sending to a server (replace this with real API later)
+      fetch("http://localhost:3000/log", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify(clickData)
+      }).catch(err => console.error("Server not found, simulating only."));
+    }
+  </script>
+
+</body>
+</html>
